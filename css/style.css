@@ -39,11 +39,13 @@ body {
   margin-left: 12px;
   display: none;
 }
+
 .line {
   height: 2px;
   width: 100%;
   background-color: #fff;
 }
+
 .search {
   display: flex;
 }
@@ -73,6 +75,7 @@ body {
 .search__input:focus {
   border: 1px solid #0e3368;
 }
+
 .search__button {
   position: absolute;
   right: 0%;
@@ -164,6 +167,7 @@ body {
   align-items: center;
   position: relative;
 }
+
 .notification {
   position: absolute;
   font-size: 14px;
@@ -179,6 +183,7 @@ body {
   top: -8px;
   left: 8px;
 }
+
 .icons__icon {
   fill: #002766;
   transition: 0.2s ease-in-out;
@@ -220,19 +225,23 @@ body {
   margin-right: 12px;
   position: fixed;
 }
+
 .menu-sidebar .user {
   padding-left: 10px;
 }
+
 .menu-sidebar .user__avatar {
   width: 24px;
   height: 24px;
 }
+
 .menu-sidebar .user__name {
   font-size: 14px;
   line-height: 22px;
   color: #262626;
   font-weight: normal;
 }
+
 .nav-group {
   display: flex;
   flex-direction: column;
@@ -250,6 +259,7 @@ body {
   margin-bottom: 4px;
   margin-top: 0;
 }
+
 .nav-group__link {
   display: flex;
   align-items: center;
@@ -262,6 +272,7 @@ body {
   font-weight: normal;
   transform: scale(1);
 }
+
 .nav-group__link.active {
   background: #fff;
   color: #262626;
@@ -282,12 +293,15 @@ body {
 .nav-group__link img {
   margin-right: 12px;
 }
+
 .link-more {
   margin-top: 12px;
 }
+
 .nav-group__more {
   color: #1890ff;
 }
+
 .main-feed {
   max-width: 588px;
   margin-top: 16px;
@@ -301,6 +315,7 @@ body {
   border-radius: 4px;
   overflow: hidden;
 }
+
 .create-post__header {
   background: #f5f5f5;
   padding: 9px 16px;
@@ -313,6 +328,7 @@ body {
   line-height: 22px;
   font-weight: 600;
 }
+
 .create-post__body {
   padding: 16px 16px 24px 16px;
   display: flex;
@@ -324,6 +340,7 @@ body {
   height: 40px;
   margin-right: 16px;
 }
+
 .create-post__input {
   color: #8c8c8c;
   padding-top: 8px;
@@ -339,6 +356,7 @@ body {
   padding: 0 16px 16px 16px;
   flex-wrap: wrap;
 }
+
 .create-post__footer::before {
   content: "";
   width: 556px;
@@ -386,28 +404,34 @@ body {
   padding: 16px;
   overflow: hidden;
 }
+
 .post__header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
 }
+
 .post__user {
   display: flex;
   flex-wrap: wrap;
 }
+
 .post__user .user__avatar {
   width: 48px;
   height: 48px;
   margin-right: 12px;
 }
+
 .user__info {
   display: flex;
   flex-wrap: wrap;
 }
+
 .user__about {
   display: flex;
   align-items: center;
 }
+
 .user__author {
   color: #0050b3;
   font-size: 14px;
@@ -416,11 +440,13 @@ body {
   text-decoration: none;
   width: 100%;
 }
+
 .user__time {
   color: #8c8c8c;
   font-size: 14px;
   line-height: 22px;
 }
+
 .user__time:after {
   content: "";
   width: 4px;
@@ -431,6 +457,7 @@ body {
   margin: 0 6px;
   vertical-align: middle;
 }
+
 .user__button {
   display: flex;
   align-items: center;
@@ -485,6 +512,7 @@ body {
   background: #e8e8e8;
   margin-bottom: 16px;
 }
+
 .post__btn {
   background: transparent;
   border: none;
@@ -497,6 +525,7 @@ body {
 .button-icon {
   margin-right: 8px;
 }
+
 .button__text {
   font-size: 14px;
   line-height: 22px;
@@ -551,6 +580,7 @@ body {
   align-items: center;
   text-decoration: none;
 }
+
 .stories__link:last-child:before {
   content: "";
   width: 4px;
@@ -571,12 +601,15 @@ body {
   color: #0050b3;
   transition: color 0.2s;
 }
+
 .stories__link:hover .setting__text {
   color: #8c8c8c;
 }
+
 .stories__link:hover .setting__icon {
   fill: #8c8c8c;
 }
+
 .stories__item {
   display: flex;
   align-items: center;
@@ -603,6 +636,7 @@ body {
   justify-content: center;
   color: #1890ff;
 }
+
 .item__img {
   width: 48px;
   height: 48px;
@@ -614,10 +648,12 @@ body {
   justify-content: center;
   border: 3px solid #1890ff;
 }
+
 .item__text {
   display: flex;
   flex-wrap: wrap;
 }
+
 .item__title {
   font-size: 14px;
   line-height: 22px;
@@ -633,6 +669,7 @@ body {
   width: 100%;
   word-wrap: break-word;
 }
+
 .stories__btn-more {
   display: flex;
   align-items: center;
@@ -644,6 +681,7 @@ body {
 .stories__btn-more img {
   margin-right: 12px;
 }
+
 .stories__more {
   font-size: 14px;
   line-height: 22px;
@@ -652,9 +690,11 @@ body {
   color: #0050b3;
   transition: color 0.2s;
 }
+
 .stories__btn-more:hover .stories__more {
   color: #8c8c8c;
 }
+
 .birthday-block {
   background: #ffffff;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
@@ -662,14 +702,17 @@ body {
   margin: 16px 0;
   padding: 16px;
 }
+
 .birthday-block__item {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
+
 .birthday-block__icon {
   margin-right: 8px;
 }
+
 .birthday-block__user {
   font-size: 14px;
   line-height: 22px;
@@ -687,9 +730,11 @@ body {
   .header__block {
     width: 95%;
   }
+
   .right-sidebar {
     display: none;
   }
+
   .container {
     width: 95%;
   }
@@ -699,6 +744,7 @@ body {
   .header .user {
     display: none;
   }
+
   .navigation-panel {
     display: none;
   }
@@ -717,16 +763,20 @@ body {
     transform: translateX(-100%);
     transition: transform 0.2s;
   }
+
   .menu-sidebar.active {
     transform: translateX(0%);
   }
+
   .main-feed {
     margin-left: 0;
   }
+
   .m-menu {
     display: flex;
   }
 }
+
 @media (max-width: 760px) {
   .search {
     display: none;
@@ -738,6 +788,7 @@ body {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
 .fanpage__header {
   display: flex;
   align-items: center;
@@ -745,12 +796,14 @@ body {
   padding: 9px 16px 9px 16px;
   border-bottom: 1px solid #d9d9d9;
 }
+
 .fanpage__title {
   font-size: 14px;
   line-height: 22px;
   color: #595959;
   margin: 0;
 }
+
 .fanpage__setting {
   border: none;
   background: transparent;
@@ -760,15 +813,18 @@ body {
   cursor: pointer;
   transition: fill 0.2s;
 }
+
 .fanpage__setting:hover .fanpage__icon {
   fill: #1890ff;
 }
+
 .fanpage__body {
   display: flex;
   align-items: flex-start;
   margin: 16px;
   flex-wrap: wrap;
 }
+
 .fanpage__body:after {
   content: "";
   width: 100%;
@@ -776,6 +832,7 @@ body {
   background: #d9d9d9;
   margin-top: 23px;
 }
+
 .fanpage__body img {
   width: 48px;
   height: 48px;
@@ -786,11 +843,13 @@ body {
   border: 1px solid #d9d9d9;
   margin-right: 12px;
 }
+
 .fanpage__text-block {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .text-block__title {
   margin: 0;
   font-size: 14px;
@@ -800,22 +859,26 @@ body {
   margin-bottom: 4px;
   text-decoration: none;
 }
+
 .text-block__link {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
+
 .text-block__icon {
   fill: #262626;
   margin-right: 5px;
   transition: color 0.2s;
 }
+
 .text-block__text {
   font-size: 14px;
   line-height: 22px;
   color: #8c8c8c;
   transition: color 0.2s;
 }
+
 .text-block__counter {
   font-size: 12px;
   line-height: 20px;
@@ -825,23 +888,28 @@ body {
   margin-left: 8px;
   border-radius: 5px;
 }
+
 .text-block__link:hover .text-block__text {
   color: #1890ff;
 }
+
 .text-block__link:hover .text-block__icon {
   fill: #1890ff;
 }
+
 .fanpage__footer {
   /* display: flex; */
   /* justify-content: center; */
   margin: 0 auto;
   padding: 0 16px 16px 16px;
 }
+
 .fanpage__tabs {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .tabs-item {
   font-size: 16px;
   line-height: 24px;
@@ -852,6 +920,7 @@ body {
   text-decoration: none;
   transition: color 0.2s, border 0.2s;
 }
+
 .tabs-item:nth-child(1) {
   border-radius: 6px 0 0 6px;
 }
@@ -859,14 +928,17 @@ body {
 .tabs-item:nth-child(3) {
   border-radius: 0 6px 6px 0;
 }
+
 .tabs-item:hover {
   color: #1890ff;
   border: 1px solid #1890ff;
 }
+
 .tabs-item-active {
-  color: red;
+  color: #1890ff;
   border: 1px solid #1890ff;
 }
+
 .tabs__block {
   display: flex;
   flex-direction: column;
@@ -875,9 +947,11 @@ body {
   padding-top: 16px;
   display: none;
 }
+
 .tabs__block.active {
   display: flex;
 }
+
 .tabs__block__counter {
   margin-bottom: 4px;
   font-size: 24px;
@@ -885,11 +959,13 @@ body {
   font-weight: normal;
   color: #262626;
 }
+
 .tabs__block__week-counter {
   font-size: 14px;
   line-height: 22px;
   color: #8c8c8c;
 }
+
 .visible {
   display: flex;
 }
