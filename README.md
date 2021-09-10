@@ -15,6 +15,6 @@
   - Анимация при наведении;
   - страница добавлена на GitHub
 
-Ссылка: https://sanderbest.github.io/distance/
+Ссылка: https://sandervanoff.github.io/distance/
 
 ![YRzvGynecat9Bs1r](https://user-images.githubusercontent.com/61217980/129890717-2f508580-a62f-4722-9b4e-fdb511278c14.png)
